@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .button {
+        background-color: rgb(255,229,180);
+        border-radius: 8px;
+        border: 2ch;
+        height: 3cm;
+        width: 3cm;
+        visibility: visible;
+    }
+    .button:hover {
+        background-color: rgb(207, 50, 255);
+        border-radius: 8px;
+        border: 2ch;
+        height: 3cm;
+        width: 4cm;
+        transition:0.75s;
+        visibility: visible;
+    }
+    h1, p {
+        color: white;
+    }
+    img {
+        border-radius: 4px;
+    }
+    </style>
+    <script>
+    function redirect(a){
+        if (a==='r1') {window.location.href = "r1.html";}
+        if (a==='r2') {window.location.href = "r2.html";}
+        if (a==='r3') {window.location.href = "r3.html";}
+        if (a==='r4') {window.location.href = "r4.html";}
+        if (a==='r5') {window.location.href = "r5.html";}
+        if (a==='r6') {window.location.href = "r6.html";}
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cute Bunnies</title>
+</head>
+<body style="background-image: url('https://images-cdn.welcomesoftware.com/Zz0wZGI4ZTI2NjhlNGQxMWViODVlN2QzNTI0ZjhkZTQyOA==');">
+    <center>
+        <img id="img1" src="https://www.womansworld.com/wp-content/uploads/2019/09/cute-bunny-in-a-field-of-grass-and-white-flowers.jpg" height='200' width="300">
+        <h1>The Cute Bunnies</h1>
+        <p>Click on the below animals to learn more about them</p>
+        <button class="button" id="button" onclick="redirect('r1')"><img src="https://www.wildlifeonline.me.uk/assets/ugc/images/rabbit_speed.jpg" height="50" width="75"><br><br>European Rabbit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" id="button" onclick="redirect('r2')"><img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRZhfhv7mg1xBKd--doilBkJg2MIdRx8bOR7qqP4jmyf9XNXEIRKuccxUPNRbcSsu10YLQMNjDauTzNHzo" height="50" width="75"><br><br>Marsh Rabbit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" id="button" onclick="redirect('r3')"><img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRmVjshF1TcMxl_0nTEPoRsnGBLBW2BKF0Z8mVdJxZjI6Ar-Sy52ZqwXy9cQBPkYhTEsBt4nDekcW2-tog" height="50" width="75"><br><br>Volcano Rabbit</button><br><br>
+        <button class="button" id="button" onclick="redirect('r4')"><img src="https://www.ndow.org/wp-content/uploads/2021/10/brachylagus_idahoensis.png" height="50" width="75"><br><br>Pygmy Rabbit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" id="button" onclick="redirect('r5')"><img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQa44uZxWa5SFygw-kSByQMLdjBNR89hNgNWL2DIY1ZjjgvX-CdfOgKLi2Mhh2iFdMDgg5-tiEM7ROo2MM" height="50" width="75"><br><br>Swamp Rabbit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" id="button" onclick="redirect('r6')"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sumatran_Striped_Rabbit_Recontruction.jpg/1200px-Sumatran_Striped_Rabbit_Recontruction.jpg" height="50" width="45"><br>Sumatran Striped Rabbit</button>
+    </center>
+</body>
+</html>

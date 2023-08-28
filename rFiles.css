@@ -1,0 +1,62 @@
+.goback {
+    background-color: rgb(255,229,180);
+    border-radius: 4px;
+    border: 2ch;
+    height: 1cm;
+    width: 3cm;
+    visibility: visible;
+}
+
+.goback:hover {
+    background-color: rgb(207, 50, 255);
+    border-radius: 4px;
+    border: 2ch;
+    height: 1cm;
+    width: 4cm;
+    transition: 0.75s;
+    visibility: visible;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    visibility: visible;
+}
+
+td, th {
+    border: 1px solid black;
+    background-color: rgb(255,229,180);
+    padding: 10px;
+    visibility: visible;
+}
+
+th {
+    background-color: rgb(207, 50, 255);
+    text-align: center;
+    color: white;
+    visibility: visible;
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+    visibility: visible;
+}
+
+a:hover {
+    background-color: black;
+    color:white;
+    transition: 0.5s;
+    visibility: visible;
+}
+
+img {
+    border-radius: 8px;
+    visibility: visible;
+}
+
+body {
+    background-image: url('https://images-cdn.welcomesoftware.com/Zz0wZGI4ZTI2NjhlNGQxMWViODVlN2QzNTI0ZjhkZTQyOA==');
+    background-size: auto;
+    visibility: visible;
+}
